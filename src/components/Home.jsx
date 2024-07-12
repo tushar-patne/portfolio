@@ -15,7 +15,7 @@ new work environments</p>
                 <button className='secondary-btn'>portfolio</button>
             </div>
         </div>
-        <img className='relative -top-20 object-cover hidden md:w-1/3  border-primary-light shadow-lg hover:shadow-2xl rounded-full transition-shadow ease-linear' src="/tushar-photo.jpg" alt="" />
+        <img className='relative -top-20 object-cover hidden sm:inline-block md:w-1/3  border-primary-light shadow-lg hover:shadow-2xl rounded-full transition-shadow ease-linear' src="/tushar-photo.jpg" alt="" />
     </section>
     </div>
   )
