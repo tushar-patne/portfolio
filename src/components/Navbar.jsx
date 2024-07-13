@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import resume from '/tushar-patne-resume.pdf'
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
             <a href="#skill">skill</a>
             <a href="#work">work</a>
             <a href="https://github.com/tushar-patne" target='_main'>projects</a>
-            <a href="/public/tushar-resume-0.pdf" download>
+            <a href={resume} download="tushar-patne-resume.pdf">
               <button className='bg-primary text-white rounded-3xl px-3 py-1'><span className='hidden sm:inline-block'>resume</span> <i className="fa-solid fa-download"></i></button>
             </a>
         </div>
